@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CoderSwag</string>
+    <string name="template_img">template image for this list item file</string>
 </resources>

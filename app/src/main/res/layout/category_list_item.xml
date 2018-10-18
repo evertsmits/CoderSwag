@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="150dp">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/hatimage"
+            android:id="@+id/categoryImage"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="@string/template_img"
+
+            android:scaleType="centerCrop"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/categoryText"
+            app:layout_constraintTop_toTopOf="@+id/categoryImage" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/categoryImage"
+            app:layout_constraintStart_toStartOf="@+id/categoryImage"
+            app:layout_constraintEnd_toEndOf="@+id/categoryImage"
+            android:layout_marginEnd="8dp" android:textSize="24sp" android:textStyle="bold"
+            android:textColor="@android:color/white" tools:text="HATS" android:layout_marginTop="8dp"/>
+</android.support.constraint.ConstraintLayout>
